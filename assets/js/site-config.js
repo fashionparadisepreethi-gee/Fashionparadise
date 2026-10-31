@@ -3,7 +3,7 @@
 // ═══════════════════════════════════════════════════════════════
 
 // 1. LOGO URL (Paste your new Cloudinary logo link here)
-const STORE_LOGO_URL = "https://res.cloudinary.com/ft8zlz5x/image/upload/v1793448265/moms_pick/logo/MOMSCHOICE.png";
+const STORE_LOGO_URL = "https://res.cloudinary.com/puimh9rz/image/upload/v1793473567/moms_pick/logo/FASHION%20PARADISE.png";
 
 // 2. SOCIAL MEDIA LINKS
 const SOCIAL_LINKS = {
