@@ -3,7 +3,7 @@
 // ═══════════════════════════════════════════════════════════════
 const TRANSLATIONS = {
   en: {
-    store_name: "Mom's Choice",
+    store_name: "Fashion Paradise",
     tagline_ethnic: "Ethnic Wardrobe",
     tagline_jewels: "Jewels & Accessories",
     home: "Home",
@@ -86,7 +86,7 @@ const TRANSLATIONS = {
     pol_s7_l3: "We recommend dry cleaning for silk and hand-wash in cold water for cotton/polyester.",
     pol_s8_t: "8. Contact / Customer Support",
     pol_s8_l1: "WhatsApp (fastest): +91 98765 43210 (replies within 2–4 hours)",
-    pol_s8_l2: "Email: support@momschoice.com",
+    pol_s8_l2: "Email: support@fashionparadise.com",
     pol_s8_l3: "Business hours: Monday to Saturday, 10 AM to 8 PM IST. Sunday closed.",
     
     // Category Dictionary
@@ -104,7 +104,7 @@ const TRANSLATIONS = {
     sub_jhumka: "ஜிமிக்கி"
   },
   ta: {
-    store_name: "மாம்ஸ் சாய்ஸ்",
+    store_name: "ஃபேஷன் பாரடைஸ்",
     tagline_ethnic: "பாரம்பரிய உடைகள்",
     tagline_jewels: "நகைகள் & பாகங்கள்",
     home: "முகப்பு",
@@ -187,7 +187,7 @@ const TRANSLATIONS = {
     pol_s7_l3: "பட்டுக்கு ட்ரை க்ளீனிங் மற்றும் பருத்தி/பாலியஸ்டருக்கு குளிர்ந்த நீரில் கழுவ பரிந்துரைக்கிறோம்.",
     pol_s8_t: "8. தொடர்பு / வாடிக்கையாளர் சேவை",
     pol_s8_l1: "வாட்ஸ்அப் (விரைவானது): +91 98765 43210 (2-4 மணி நேரத்தில் பதில்)",
-    pol_s8_l2: "மின்னஞ்சல்: support@momschoice.com",
+    pol_s8_l2: "மின்னஞ்சல்: support@fashionparadise.com",
     pol_s8_l3: "வேலை நேரம்: திங்கள் முதல் சனி, காலை 10 - இரவு 8 IST. ஞாயிறு விடுமுறை",
     
     // Category Dictionary
@@ -316,7 +316,7 @@ function applyTranslations() {
       newTitle = (lang === "ta" && catMap[urlCat]) ? catMap[urlCat] : urlCat;
     }
     titleEl.innerText = newTitle;
-    document.title = newTitle + " | Mom's Choice";
+    document.title = newTitle + " | Fashion Paradise";
   }
 
   const btnEn = document.getElementById("btnLangEn");

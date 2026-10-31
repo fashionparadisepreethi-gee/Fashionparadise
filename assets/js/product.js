@@ -1,5 +1,5 @@
 const CONFIG = {
-  storeName: "MOM'S CHOICE",
+  storeName: "FASHION PARADISE",
   upiId: "yourname@okhdfcbank",
   whatsappNumber: "919489938290"
 };
@@ -54,7 +54,7 @@ function renderProduct() {
   const title = (lang === "ta" && p.title_ta) ? p.title_ta : p.title;
   const desc = (lang === "ta" && p.description_ta) ? p.description_ta : (p.description || "");
 
-  document.title = title + " | Mom's Pick";
+  document.title = title + " | Fashion Paradise";
   document.getElementById("pdHeaderTitle").innerText = title;
   document.getElementById("pdTitle").innerText = title;
   document.getElementById("pdPrice").innerText = sym + p.price.toLocaleString("en-IN");
@@ -129,7 +129,7 @@ function shareProduct(id) {
   const url = window.location.href;
   if (navigator.share) {
     navigator.share({
-      title: 'Check out this product on Mom\'s Choice!',
+      title: 'Check out this product on Fashion Paradise!',
       url: url
     }).catch(console.error);
   } else {
@@ -201,7 +201,7 @@ function shareStore() {
   
   const url = window.location.origin + window.location.pathname.replace('product.html', 'index.html').replace('category.html', 'index.html');
   if (navigator.share) {
-    navigator.share({ title: 'Check out Mom\'s Choice!', text: 'Premium sarees, jewelry, and ethnic wear.', url: url }).catch(console.error);
+    navigator.share({ title: 'Check out Fashion Paradise!', text: 'Premium sarees, jewelry, and ethnic wear.', url: url }).catch(console.error);
   } else {
     navigator.clipboard.writeText(url);
     alert("Store link copied to clipboard!\n" + url);

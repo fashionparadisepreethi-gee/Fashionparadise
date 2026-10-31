@@ -2,7 +2,7 @@
 /* [CONFIG] Store settings — EDIT THESE WITH YOUR REAL DETAILS     */
 /* ═══════════════════════════════════════════════════════════════ */
 const CONFIG = {
-  storeName: "MOM'S CHOICE",
+  storeName: "FASHION PARADISE",
   upiId: "yourname@okhdfcbank",       // ← CHANGE THIS LATER TO YOUR UPI ID
   whatsappNumber: "919489938290"      
 };
@@ -973,7 +973,7 @@ function shareStore() {
   const url = window.location.href.split('?')[0].replace('product.html', 'index.html').replace('category.html', 'index.html');
   if (navigator.share) {
     navigator.share({
-      title: 'Check out Mom\'s Choice!',
+      title: 'Check out Fashion Paradise!',
       text: 'Premium sarees, jewelry, and ethnic wear.',
       url: url
     }).catch(console.error);
@@ -1019,7 +1019,7 @@ function shareProduct(id) {
   const url = window.location.origin + window.location.pathname.replace("index.html", "").replace("category.html", "") + "product.html?id=" + id;
   if (navigator.share) {
     navigator.share({
-      title: 'Check out this product on Mom\'s Choice!',
+      title: 'Check out this product on Fashion Paradise!',
       url: url
     }).catch(console.error);
   } else {

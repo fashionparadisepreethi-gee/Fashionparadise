@@ -1,6 +1,6 @@
 
 """
-Mom's Pick - Local Backend Server
+Fashion Paradise - Local Backend Server
 Handles all GitHub operations automatically. Admin panel never sees the token.
 """
 import os
@@ -331,7 +331,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 def main():
     print("=" * 60)
-    print("✨ MOM'S PICK — BACKEND SERVER")
+    print("✨ FASHION PARADISE — BACKEND SERVER")
     print("=" * 60)
     if not GH_TOKEN:
         print("⚠️  No GITHUB_TOKEN in .env — push will fail.")

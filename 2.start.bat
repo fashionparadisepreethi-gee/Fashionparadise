@@ -1,5 +1,5 @@
 @echo off
-title Manimegalai Maran Wearables — Server
+title Fashion Paradise — Server
 echo Starting backend server...
 echo.
 echo   Admin:  http://localhost:5000/admin.html

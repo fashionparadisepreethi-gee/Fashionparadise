@@ -1,4 +1,4 @@
-const CONFIG = { storeName: "MOM'S CHOICE", upiId: "yourname@okhdfcbank", whatsappNumber: "919489938290" };
+const CONFIG = { storeName: "FASHION PARADISE", upiId: "yourname@okhdfcbank", whatsappNumber: "919489938290" };
 const SAVED_CUSTOMER_KEY = "ma_fashion_customer";
 const FREE_SHIPPING_ABOVE = 2000;
 
@@ -360,7 +360,7 @@ function shareStore() {
   
   const url = window.location.origin + window.location.pathname.replace('product.html', 'index.html').replace('category.html', 'index.html');
   if (navigator.share) {
-    navigator.share({ title: 'Check out Mom\'s Choice!', text: 'Premium sarees, jewelry, and ethnic wear.', url: url }).catch(console.error);
+    navigator.share({ title: 'Check out Fashion Paradise!', text: 'Premium sarees, jewelry, and ethnic wear.', url: url }).catch(console.error);
   } else {
     navigator.clipboard.writeText(url);
     alert("Store link copied to clipboard!\n" + url);
@@ -497,7 +497,7 @@ function toggleWish(id, btn) {
 function shareProduct(id) {
   const url = window.location.origin + window.location.pathname.replace("index.html", "").replace("category.html", "") + "product.html?id=" + id;
   if (navigator.share) {
-    navigator.share({ title: 'Check out this product on Mom\'s Choice!', url: url }).catch(console.error);
+    navigator.share({ title: 'Check out this product on Fashion Paradise!', url: url }).catch(console.error);
   } else {
     navigator.clipboard.writeText(url);
     alert("Link copied to clipboard!\n" + url);
